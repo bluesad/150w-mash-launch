@@ -29,3 +29,12 @@ jobs:
     - run: npm ci
     - run: npm run build --production
     - run: npm test
+    
+    - name: Deploy to GitHub Pages
+      uses: Cecilapp/GitHub-Pages-deploy@v3
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        email: zhangyu@150w.studio
+        build_dir: public
+    
