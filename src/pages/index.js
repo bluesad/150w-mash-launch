@@ -31,7 +31,7 @@ class IndexPage extends React.Component {
             <div className="middle">
               <div className="content">
                 <h1 className="h1">即将发售</h1>
-                <Timer date="02/22/2022" time="19.00" />
+                <Timer date="02/22/2022" time="19:00" />
                 <p>Mash就是麦咻！请输入您的邮箱获得即使讯息～</p>
                 <input name="email" type="text" placeholder="email address" />
                 <button className="button">关注</button>
