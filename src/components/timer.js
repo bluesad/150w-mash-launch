@@ -91,7 +91,7 @@ class Timer extends Component {
           <span className="Countdown-col">
             <span className="Countdown-col-element">
               <strong>{this.addLeadingZeros(countDown.years)}</strong>
-              <span>{countDown.years === 1 ? 'Year' : 'Years'}</span>
+              <span>{countDown.years === 1 ? '年' : '年'}</span>
             </span>
           </span>
         )}
@@ -99,28 +99,28 @@ class Timer extends Component {
         <span className="Countdown-col">
           <span className="Countdown-col-element">
             <strong>{this.addLeadingZeros(countDown.days)}</strong>
-            <span>{countDown.days === 1 ? 'Day' : 'Days'}</span>
+            <span>{countDown.days === 1 ? '天' : '天'}</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
             <strong>{this.addLeadingZeros(countDown.hours)}</strong>
-            <span>{countDown.hours === 1 ? 'Hour' : 'Hours'}</span>
+            <span>{countDown.hours === 1 ? '小时' : '小时'}</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
             <strong>{this.addLeadingZeros(countDown.min)}</strong>
-            <span>Min</span>
+            <span>分钟</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
             <strong>{this.addLeadingZeros(countDown.sec)}</strong>
-            <span>Sec</span>
+            <span>秒</span>
           </span>
         </span>
       </div>
