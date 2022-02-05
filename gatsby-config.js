@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Mash is coming! | 150W Studio',
+    title: '麦咻来了！ | Mash is coming! | 150W Studio',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
